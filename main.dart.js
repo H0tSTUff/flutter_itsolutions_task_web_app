@@ -70015,6 +70015,8 @@ return A.Uv(new A.Ck(1,A.oQ(s,A.S_(B.ad,new A.Eo("img-view",this.c,new A.jb()),B
 A.W4.prototype={
 $2$params(a,b){var s,r=self.document.createElement("img")
 r.id="img_id_"+a
+r.style.width="100%"
+r.style.height="100%"
 A.c8(b)
 s=b==null?"":b
 r.src=s
